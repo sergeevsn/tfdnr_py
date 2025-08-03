@@ -1,6 +1,6 @@
 # TFD Noise Rejection
 
-This repository contains a Python library that implements a Time-Frequency Domain (TFD) noise rejection method for seismic data. The function is designed to remove noise from seismic traces using either a median filter or an adjustment window approach.
+This repository contains a Python library that implements a Time-Frequency Domain (TFD) noise rejection method for seismic data. The function is designed to remove noise from seismic traces using either a median filter or an adjustment window approach. The filtering is performed after STFT transform, only using amplitude spectrum, preserving phase spectrum. 
 
 ## Main Function: `tfd_noise_rejection`
 
